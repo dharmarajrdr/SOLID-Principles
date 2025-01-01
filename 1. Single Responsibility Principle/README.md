@@ -19,7 +19,7 @@ Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main
 ---
 
 #### With SRP  
-Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/1.%20Single%20Responsibility%20Principle/WithSRP.pdf) where SRP is followed.
+Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/1.%20Single%20Responsibility%20Principle/WithSRP.java) where SRP is followed.
 
 **Benefits**:
 1. Each class has a single responsibility.

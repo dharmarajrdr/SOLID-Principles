@@ -18,7 +18,7 @@ Let’s take the example of a **printer system**.
 ### Code Examples
 
 #### Without ISP (Violating ISP):
-Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/4.%20Interface%20Segregation%20Principle/WithoutISP.java) where OCP is violated.
+Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/4.%20Interface%20Segregation%20Principle/WithoutISP.java) where ISP is violated.
 
 In the code above:
 - The `SimplePrinter` class is forced to implement the methods `scan()` and `fax()` from the `MultiFunctionPrinter` interface, even though it doesn't **need** them.
@@ -27,7 +27,7 @@ In the code above:
 ---
 
 #### With ISP (Following the Principle):
-Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/4.%20Interface%20Segregation%20Principle/WithISP.java) where OCP is followed.
+Here’s an [example](https://github.com/dharmarajrdr/SOLID-Principles/blob/main/4.%20Interface%20Segregation%20Principle/WithISP.java) where ISP is followed.
 
 In this improved version:
 - We **split the interfaces** into smaller, more focused ones: `Printer`, `Scanner`, and `Fax`.

@@ -1,0 +1,1 @@
+1) I have tackled the **Single Responsibility Principle (SRP)** by separating the responsibility of discount calculation into different Product classes. This makes each class responsible for providing the discount information for a specific product type, which is much cleaner and more maintainable.
